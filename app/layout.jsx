@@ -1,9 +1,15 @@
 import './globals.css'
 import { Montserrat } from 'next/font/google'
+import { Playfair_Display } from 'next/font/google'
+import Navigation from './components/shared/Navigation'
+import Footer from './components/shared/Footer'
 
 const montserrat = Montserrat({
   subsets: ['latin'],
   weight: ['300','500', '700', '900']})
+const playfair = Playfair_Display({
+  subsets: ['latin'],
+  weight: ['400','500', '700', '900']})
 
 export const metadata = {
   title: 'Ashikuzzaman | Web Developer & IT Student',
@@ -13,7 +19,13 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={montserrat.className}>{children}</body>
+      <body className={montserrat.className}>
+        <Navigation/>
+        <main className='container'>
+        {children}
+        </main>
+        <Footer/>
+      </body>
     </html>
   )
 }
