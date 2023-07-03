@@ -1,6 +1,7 @@
+'use client'
 import {
     Navbar,
-    MobileNav,
+    Collapse,
     Typography,
     Button,
     IconButton,
@@ -132,12 +133,12 @@ const Navigation = () => {
             </IconButton>
           </div>
         </div>
-        <MobileNav open={openNav}>
+        <Collapse open={openNav}>
           {navList}
           <Button variant="gradient" size="sm" fullWidth className="mb-2">
             <span>Buy Now</span>
           </Button>
-        </MobileNav>
+        </Collapse>
       </Navbar>
 
         </>

@@ -1,10 +1,8 @@
-'use client'
 import './globals.css'
 import { Montserrat } from 'next/font/google'
 import { Playfair_Display } from 'next/font/google'
 import Navigation from './components/shared/Navigation'
 import Footer from './components/shared/Footer'
-import { ThemeProvider } from "@material-tailwind/react";
 
 const montserrat = Montserrat({
   subsets: ['latin'],
@@ -20,7 +18,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <ThemeProvider>
+   
       <html lang="en">
       <body  className={`container ${montserrat.className}`}>
         <Navigation/>
@@ -30,6 +28,6 @@ export default function RootLayout({ children }) {
         <Footer/>
       </body>
     </html>
-    </ThemeProvider>
+   
   )
 }
