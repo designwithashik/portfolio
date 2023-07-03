@@ -2,7 +2,6 @@
 import { Typography } from '@material-tailwind/react';
 import { motion } from 'framer-motion'
 import Link from 'next/link';
-import { FaArrowLeft } from 'react-icons/fa'
 import AnimatedTextCharacter from './components/shared/AnimateText';
 const MainPage = () => {
   return (
@@ -41,7 +40,8 @@ As a freelance developer, I have created brand identities and site solutions for
               }
             }}
             className="cursor-pointer p-7 rounded-xl border-white border-t-2 border-l-2">
-          <p className="text-xl  font-semibold mb-3">
+            <p className="text-xl  font-semibold mb-3">
+            <img className='w-full object-cover mb-5 rounded-lg' src="/EduToyspng.png" alt="site-image-01" />
               Edu Toys
               <span><a className='text-blue-500 mx-5' href="https://edu-toys.web.app/" target='_blank'>Live Site</a></span>
               <span><a className=' mr-5 text-blue-500' href="https://edu-toys.web.app/" target='_blank'>Github Client</a></span>
@@ -60,7 +60,8 @@ As a freelance developer, I have created brand identities and site solutions for
     duration: .7
   }
 }}
- className="cursor-pointer p-7 rounded-xl border-white border-t-2 border-l-2">
+            className="cursor-pointer p-7 rounded-xl border-white border-t-2 border-l-2">
+            <img className='w-full object-cover mb-5 rounded-lg' src="/SmashJobs.png" alt="site-image-02" />
           <p className="text-xl  font-semibold mb-3">
               SmashJobs
               <span><a className='text-blue-500 mx-5' href="https://edu-toys.web.app/" target='_blank'>Live Site</a></span>
@@ -81,8 +82,10 @@ manage your applied jobs, filter between onsite and remote positions on the Appl
     duration: .7
   }
 }}
-   className="cursor-pointer p-7 rounded-xl border-white border-t-2 border-l-2">
-          <p className="text-xl  font-semibold mb-3">
+            className="cursor-pointer p-7 rounded-xl border-white border-t-2 border-l-2">
+            <img className='w-full object-cover mb-5 rounded-lg' src="/Nippon.png" alt="site-image-03" />
+            <p className="text-xl  font-semibold mb-3">
+              
           Nippon Resutoran
               <span><a className='text-blue-500 mx-5' href="https://edu-toys.web.app/" target='_blank'>Live Site</a></span>
               <span><a className=' mr-5 text-blue-500' href="https://edu-toys.web.app/" target='_blank'>Github Client</a></span>
@@ -102,7 +105,8 @@ required to access chef recipes, ensuring a secure and personalized culinary jou
     duration: .7
   }
 }}
-   className="cursor-pointer p-7 rounded-xl border-white border-t-2 border-l-2">
+            className="cursor-pointer p-7 rounded-xl border-white border-t-2 border-l-2">
+            <img className='w-full object-cover mb-5 rounded-lg' src="/Lingos.png" alt="site-image-04" />
           <p className="text-xl  font-semibold mb-3">
           Lingos
               <span><a className='text-blue-500 mx-5' href="https://edu-toys.web.app/" target='_blank'>Live Site</a></span>
