@@ -7,10 +7,13 @@ const MainPage = () => {
   return (
     <div>
       <section >
-      <AnimatedTextCharacter text={"HI!  I'M ASHIK ,   DEVELOPER & IT STUDENT"}/>
+      
+        <AnimatedTextCharacter text={"HI!  I'M ASHIK ,   DEVELOPER & IT STUDENT"}/>
       <p className="playfair-font text-2xl my-5">from Dhaka, Bangladesh</p>
         <div className="flex gap-5"><a href='/SHEIKH_ASHIKUZZAMAN_MERN_STACK_DEVELOPER.pdf'
   download="ResumeOfficial.pdf"><button className='px-5 py-3 bg-blue-500 rounded-full '>Download Resume</button></a> <a href="mailto:ashikuzzaman099@gmail.com"><button className='text-blue-500 px-5 py-3 bg-gray-300 rounded-full'>Contact </button></a></div>
+        
+        
         <div className='flex flex-col text-3xl gap-5 my-28'>
           <h2 id='about'>ABOUT ME</h2>
           <p>Hello there! I'm Sheikh Ashikuzzaman, an Web Developer and IT Student. I enjoy building impactful web experiences and tinkering with code. As both a student and a developer, I am able to envision a product from the early stages, as just a prototype, to finished product.
