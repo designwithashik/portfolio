@@ -44,8 +44,8 @@ As a freelance developer, I have created brand identities and site solutions for
             <img className='w-full object-cover mb-5 rounded-lg' src="/EduToyspng.png" alt="site-image-01" />
               Edu Toys
               <span><a className='text-blue-500 mx-5' href="https://edu-toys.web.app/" target='_blank'>Live Site</a></span>
-              <span><a className=' mr-5 text-blue-500' href="https://edu-toys.web.app/" target='_blank'>Github Client</a></span>
-              <span><a className='text-blue-500' href="https://edu-toys.web.app/" target='_blank'>Github Server</a></span>
+              <span><a className=' mr-5 text-blue-500' href="https://github.com/designwithashik/edu-toys" target='_blank'>Github Client</a></span>
+              <span><a className='text-blue-500' href="https://github.com/designwithashik/edu-toys-server" target='_blank'>Github Server</a></span>
           </p>
           <p>Discover and explore a vibrant Educational and Learning Toys website with a colorful user interface.
               Select from a wide range of toys categorized within sorted tabs.</p>
@@ -64,9 +64,9 @@ As a freelance developer, I have created brand identities and site solutions for
             <img className='w-full object-cover mb-5 rounded-lg' src="/SmashJobs.png" alt="site-image-02" />
           <p className="text-xl  font-semibold mb-3">
               SmashJobs
-              <span><a className='text-blue-500 mx-5' href="https://edu-toys.web.app/" target='_blank'>Live Site</a></span>
-              <span><a className=' mr-5 text-blue-500' href="https://edu-toys.web.app/" target='_blank'>Github Client</a></span>
-              <span><a className='text-blue-500' href="https://edu-toys.web.app/" target='_blank'>Github Server</a></span>
+              <span><a className='text-blue-500 mx-5' href="https://smash-jobs.netlify.app/" target='_blank'>Live Site</a></span>
+              <span><a className=' mr-5 text-blue-500' href="https://github.com/designwithashik/smash-jobs" target='_blank'>Github Client</a></span>
+              
           </p>
           <p>Seamlessly apply to job listings and store application details using local storage. Easily track and
 manage your applied jobs, filter between onsite and remote positions on the Applied Jobs Page.</p>
@@ -87,9 +87,9 @@ manage your applied jobs, filter between onsite and remote positions on the Appl
             <p className="text-xl  font-semibold mb-3">
               
           Nippon Resutoran
-              <span><a className='text-blue-500 mx-5' href="https://edu-toys.web.app/" target='_blank'>Live Site</a></span>
-              <span><a className=' mr-5 text-blue-500' href="https://edu-toys.web.app/" target='_blank'>Github Client</a></span>
-              <span><a className='text-blue-500' href="https://edu-toys.web.app/" target='_blank'>Github Server</a></span>
+              <span><a className='text-blue-500 mx-5' href="https://nippon-resutoran.web.app/" target='_blank'>Live Site</a></span>
+              <span><a className=' mr-5 text-blue-500' href="https://github.com/designwithashik/nippon-resutoran" target='_blank'>Github Client</a></span>
+              <span><a className='text-blue-500' href="https://github.com/designwithashik/nippon-resutoran-server" target='_blank'>Github Server</a></span>
           </p>
           <p>Japanese cuisine-based site featuring skilled chefs showcasing their famous recipes. Signing in is
 required to access chef recipes, ensuring a secure and personalized culinary journey.</p>
@@ -109,9 +109,9 @@ required to access chef recipes, ensuring a secure and personalized culinary jou
             <img className='w-full object-cover mb-5 rounded-lg' src="/Lingos.png" alt="site-image-04" />
           <p className="text-xl  font-semibold mb-3">
           Lingos
-              <span><a className='text-blue-500 mx-5' href="https://edu-toys.web.app/" target='_blank'>Live Site</a></span>
-              <span><a className=' mr-5 text-blue-500' href="https://edu-toys.web.app/" target='_blank'>Github Client</a></span>
-              <span><a className='text-blue-500' href="https://edu-toys.web.app/" target='_blank'>Github Server</a></span>
+              <span><a className='text-blue-500 mx-5' href="https://lingos-d02ff.web.app/" target='_blank'>Live Site</a></span>
+              <span><a className=' mr-5 text-blue-500' href="https://github.com/designwithashik/lingos-client" target='_blank'>Github Client</a></span>
+              <span><a className='text-blue-500' href="https://github.com/designwithashik/lingos-server" target='_blank'>Github Server</a></span>
           </p>
           <p>Lingos is an educational tech platform delivering quality language learning worldwide through a
 beautiful user interface. It offers top classes, secure access control, instructor collaboration,
